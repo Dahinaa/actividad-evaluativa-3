@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HelloGuys</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header class="header">
+    <nav class="nav container">
+      <div class="logo">HelloGuys</div>
+
+      <button class="hamburger" aria-label="Abrir menú" id="hamburger">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#main">Main</a></li>
+        <li><a href="#acerca">Acerca de</a></li>
+        <li><a href="#programa">Programa</a></li>
+        <li><a href="#precio">Precio</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+
+        <div class="social">
+
+        <a href="#" onclick="return false;" aria-label="Instagram">
+            <img src="img/instagram.svg" alt="Instagram">
+        </a>
+
+        <a href="#" onclick="return false;" aria-label="LinkedIn">
+            <img src="img/linkedin.svg" alt="LinkedIn">
+        </a>
+
+        <a href="#" onclick="return false;" aria-label="Facebook">
+            <img src="img/facebook.svg" alt="Facebook">
+        </a>
+
+        </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container">
+      <div class="hero-text">
+        <h1>Transformamos<br>tu negocio<br>digitalmente</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Dolor sit amet consectetur adipisicing elit quisque faucibus.
+        </p>
+        <button class="btn" type="button">Solicitar →</button>
+      </div>
+
+      <div class="hero-image">
+        <img src="img/hero.jpg" alt="Trabajo en equipo" />
+      </div>
+    </section>
+
+    <section class="stats container" id="programa">
+      <div class="stat">
+        <div class="stat-number">800+</div>
+        <div class="stat-text">Clientes activos</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">95%</div>
+        <div class="stat-text">Satisfacción</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">10+</div>
+        <div class="stat-text">Años de experiencia</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contacto">
+    <div class="container footer-grid">
+
+      <div>
+        <h3>HelloGuys</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+
+      <div>
+        <h3>Enlaces rápidos</h3>
+        <ul class="footer-links">
+          <li><a href="#main">Main</a></li>
+          <li><a href="#acerca">Acerca de</a></li>
+          <li><a href="#programa">Programa</a></li>
+          <li><a href="#precio">Precio</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Contacto</h3>
+        <p>📧 correo.ejemplo@gmail.com</p>
+        <p>📞 +52 662 123 4567</p>
+        <p>📍 Sonora, México</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
